@@ -1,0 +1,200 @@
+{
+  "__OBJ_TYPE": "SkillSystemCfg",
+  "AntiClockwise": false,
+  "attackBound": {
+    "__OBJ_TYPE": "AttackBound",
+    "angle": {
+      "__OBJ_TYPE": "ValueRange",
+      "max": 360,
+      "min": 0
+    },
+    "height": 1,
+    "height_c": 1.5,
+    "memory": {
+      "__OBJ_TYPE": "BoundingVolumeMemory",
+      "Capsule": "",
+      "Cylinder": "",
+      "Sector": "",
+      "Sphere": ""
+    },
+    "position": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "preview_dialog": {
+      "__OBJ_TYPE": "CollisionboxPreview",
+      "preview": false
+    },
+    "radius": 0.5,
+    "radius_c": 0.5,
+    "rotate": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 3,
+      "y": 2,
+      "z": 5
+    },
+    "type": "Box"
+  },
+  "attackBoundSkillSystemCfg": {
+    "__OBJ_TYPE": "BoundPreview",
+    "angle": {
+      "__OBJ_TYPE": "ValueRange",
+      "max": 360,
+      "min": 0
+    },
+    "height": 1,
+    "height_c": 1.5,
+    "memory": {
+      "__OBJ_TYPE": "BoundingVolumeMemory",
+      "Capsule": "",
+      "Cylinder": "",
+      "Sector": "",
+      "Sphere": ""
+    },
+    "position": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "radius": 0.5,
+    "radius_c": 0.5,
+    "rotate": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 3,
+      "y": 2,
+      "z": 5
+    },
+    "type": "Box"
+  },
+  "attackTarget": {
+    "__OBJ_TYPE": "AttackTarget",
+    "attackEntity": "hitAllConfigEntity",
+    "attackTeam": "hitAllTeam",
+    "entityList": [],
+    "targetType": "hitAllEntitys",
+    "teamList": []
+  },
+  "castAction": {
+    "__OBJ_TYPE": "SkillReleaseAction",
+    "castAction": "",
+    "castActionTime": {
+      "__OBJ_TYPE": "Time",
+      "value": 20
+    },
+    "custom_time": false
+  },
+  "castEffect": {
+    "__OBJ_TYPE": "EntityEffect",
+    "effect": {
+      "__OBJ_TYPE": "Resource_Effect",
+      "asset": "",
+      "selector": ""
+    },
+    "once": true,
+    "pos": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "castInterval": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "castSound": {
+    "__OBJ_TYPE": "CastSound",
+    "loop": false,
+    "selfOnly": false,
+    "sound": {
+      "__OBJ_TYPE": "Resource_Sound",
+      "asset": "",
+      "selector": ""
+    },
+    "volume": {
+      "__OBJ_TYPE": "Percentage",
+      "value": 1
+    }
+  },
+  "cdAnimation": "",
+  "cdTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 20
+  },
+  "damage": 10,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "FillPosition": "",
+  "FillType": "Horizontal",
+  "hitEntitySound": {
+    "__OBJ_TYPE": "CastSound",
+    "loop": false,
+    "selfOnly": false,
+    "sound": {
+      "__OBJ_TYPE": "Resource_Sound",
+      "asset": "",
+      "selector": ""
+    },
+    "volume": {
+      "__OBJ_TYPE": "Percentage",
+      "value": 1
+    }
+  },
+  "hurtDistance": 0.1,
+  "isLimit": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "lifeTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 2
+  },
+  "maxAttackNumber": 1,
+  "missile": "d9249531-44f8-4dbe-ad3a-fc92302a78e8",
+  "name": {
+    "__OBJ_TYPE": "Text",
+    "value": "skill_system_6a45fa44-1da8-4efc-840e-ff93537c59be"
+  },
+  "preKillTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "skill1": "6a45fa44-1da8-4efc-840e-ff93537c59be",
+  "skill2": "464d085a-2c09-48fa-9e23-045e2a5dd81f",
+  "skillIcon": {
+    "__OBJ_TYPE": "Resource_SkillTexture",
+    "asset": "",
+    "selector": ""
+  },
+  "skillIconPos": {
+    "__OBJ_TYPE": "SkillIconPos",
+    "area_number": 0
+  },
+  "skillIconPushed": {
+    "__OBJ_TYPE": "Resource_SkillTexture",
+    "asset": "",
+    "selector": ""
+  }
+}

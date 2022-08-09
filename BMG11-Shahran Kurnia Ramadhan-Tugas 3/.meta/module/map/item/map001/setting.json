@@ -1,0 +1,102 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/32e4e931-7c92-4642-9d4a-0692c785a9ca",
+        "id": "8751279255248338945",
+        "name": "Enemy",
+        "position": {
+          "x": 28.419847488403,
+          "y": 53.006317138672,
+          "z": 61.692790985107
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/9846d598-25c8-41ec-9511-63195f2c99e8",
+        "id": "8751329330677760001",
+        "name": "Flag",
+        "position": {
+          "x": 37.527843475342,
+          "y": 53.005725860596,
+          "z": 61.2565574646
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/0412e938-9910-4ca1-8e74-e4fbfea73ab6",
+        "id": "8751351828917108737",
+        "name": "Killing Zone",
+        "position": {
+          "x": 19.683614730835,
+          "y": 45.086784362793,
+          "z": 61.597267150879
+        },
+        "scale": {
+          "x": 50,
+          "z": 50
+        },
+        "size": {
+          "x": 50,
+          "z": 50
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/9973b13a-38f4-42c8-b345-6813d6ae6911",
+        "id": "8751364067487809537",
+        "name": "Floating Platform",
+        "position": {
+          "x": 19.471920013428,
+          "y": 51.909999847412,
+          "z": 61.53307723999
+        },
+        "scale": {
+          "x": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "z": 5
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "c72f53dc05571e53a3d16622915f981f"
+    },
+    "VERSION": "0.22"
+  }
+}

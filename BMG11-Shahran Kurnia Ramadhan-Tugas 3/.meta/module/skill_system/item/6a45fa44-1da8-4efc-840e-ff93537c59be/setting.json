@@ -1,0 +1,32 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 3,
+        "y": 2,
+        "z": 5
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "x": 3,
+        "y": 2,
+        "z": 5
+      }
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "damage": 10,
+    "name": {
+      "value": "skill_system_6a45fa44-1da8-4efc-840e-ff93537c59be"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "497d56d0832023b8d0bf8495b7fee048",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

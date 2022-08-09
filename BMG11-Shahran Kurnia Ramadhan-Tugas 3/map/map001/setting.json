@@ -1,0 +1,96 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/32e4e931-7c92-4642-9d4a-0692c785a9ca",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751279255248338945",
+        "name": "Enemy",
+        "needSync": "true",
+        "position": "x:28.419847488403 y:53.006317138672 z:61.692790985107",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/9846d598-25c8-41ec-9511-63195f2c99e8",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751329330677760001",
+        "name": "Flag",
+        "needSync": "true",
+        "position": "x:37.527843475342 y:53.005725860596 z:61.2565574646",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/0412e938-9910-4ca1-8e74-e4fbfea73ab6",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751351828917108737",
+        "name": "Killing Zone",
+        "needSync": "true",
+        "position": "x:19.683614730835 y:45.086784362793 z:61.597267150879",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:50 y:1 z:50",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/9973b13a-38f4-42c8-b345-6813d6ae6911",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8751364067487809537",
+        "name": "Floating Platform",
+        "needSync": "true",
+        "position": "x:19.471920013428 y:51.909999847412 z:61.53307723999",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:5 y:1 z:5",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

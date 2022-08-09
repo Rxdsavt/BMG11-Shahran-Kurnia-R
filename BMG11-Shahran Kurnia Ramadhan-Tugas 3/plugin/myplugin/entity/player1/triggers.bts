@@ -1,0 +1,7 @@
+ENTITY_REBIRTH {
+	SetHp(entity = $obj1, hp = GetEntityCurHp(entity = $obj1) - GetEntityScore(entity = $obj1))
+}
+
+ENTITY_DIE {
+	AddEntityScore(add = 10, entity = $obj1)
+}

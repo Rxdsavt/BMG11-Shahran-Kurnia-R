@@ -1,0 +1,38 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      }
+    },
+    "damage": 20,
+    "name": {
+      "value": "skill_system_6466eb8d-4eb5-4a52-805a-edf358a37efa"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 7
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7a1a1d344b8a4c0731d49b6e156b8cd1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
