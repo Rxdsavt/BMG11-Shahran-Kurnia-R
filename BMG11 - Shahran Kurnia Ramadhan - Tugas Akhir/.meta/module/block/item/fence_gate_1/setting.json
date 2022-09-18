@@ -1,0 +1,29 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_fence_gate_1"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cc0c2bc37026a481a29beb76676b1279",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

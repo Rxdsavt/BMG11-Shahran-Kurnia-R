@@ -1,0 +1,30 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_reeds"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "873505c865cf3c7c1d4cf594fc8cc09f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

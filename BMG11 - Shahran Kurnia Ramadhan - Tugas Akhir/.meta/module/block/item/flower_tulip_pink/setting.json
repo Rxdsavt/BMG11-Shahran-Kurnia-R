@@ -1,0 +1,38 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_flower_tulip_pink"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9627933b5784c5c9674603dba2d07ae9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

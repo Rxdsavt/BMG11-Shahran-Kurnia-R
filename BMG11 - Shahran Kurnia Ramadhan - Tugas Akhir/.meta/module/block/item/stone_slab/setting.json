@@ -1,0 +1,36 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_stone_slab"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e2750cebcb4364ac7438db661f368378",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

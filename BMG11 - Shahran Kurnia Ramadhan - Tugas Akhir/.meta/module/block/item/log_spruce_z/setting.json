@@ -1,0 +1,29 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_log_spruce_z"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a17da4833c2d1a533255647e4f4546cb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

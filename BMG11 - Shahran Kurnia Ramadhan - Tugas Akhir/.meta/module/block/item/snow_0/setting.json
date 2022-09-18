@@ -1,0 +1,47 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_snow_0"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/snow.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "48229af3599d80bbf28db552f7929ab0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

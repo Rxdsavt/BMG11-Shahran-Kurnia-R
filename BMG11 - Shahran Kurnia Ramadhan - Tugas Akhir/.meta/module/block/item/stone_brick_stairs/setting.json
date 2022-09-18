@@ -1,0 +1,42 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      },
+      {
+        "min": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_stone_brick_stairs"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "95b9e2bd54fcd3e623c30f8375cfb160",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

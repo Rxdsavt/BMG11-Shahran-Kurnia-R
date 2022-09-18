@@ -1,0 +1,47 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_prismarine"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "36a7b40ba448d93f5c9ad48273cb84dd",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

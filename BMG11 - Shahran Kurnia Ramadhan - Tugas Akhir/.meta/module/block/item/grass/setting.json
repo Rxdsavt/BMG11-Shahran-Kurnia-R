@@ -1,0 +1,47 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_grass"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/dirt.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "118017d7bf9493df49c30f2dc3953ee9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "fall": true,
+    "name": {
+      "value": "block_diamond_ore"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/diamond_ore.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/diamond_ore.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/diamond_ore.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/diamond_ore.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/diamond_ore.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/diamond_ore.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c71eab03459ac7496cba87df741a750c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

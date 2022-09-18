@@ -1,0 +1,47 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_log_oak"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/log_oak.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/log_oak_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/log_oak.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/log_oak.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/log_oak.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/log_oak_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "82108b68f2894f45de6a2548d70d97c9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

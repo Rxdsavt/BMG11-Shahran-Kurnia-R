@@ -1,0 +1,42 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      },
+      {
+        "min": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_oak_stairs03_down"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7b504c33d1181d854cc918e9c6260cdb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

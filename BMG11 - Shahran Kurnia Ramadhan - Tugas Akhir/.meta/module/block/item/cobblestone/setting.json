@@ -1,0 +1,48 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "fall": true,
+    "name": {
+      "value": "block_cobblestone"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fdf9ede4e96f1cb828c00a0529174bc0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

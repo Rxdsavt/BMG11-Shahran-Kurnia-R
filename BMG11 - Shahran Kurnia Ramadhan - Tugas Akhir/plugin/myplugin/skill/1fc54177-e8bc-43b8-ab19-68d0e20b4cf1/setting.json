@@ -1,0 +1,73 @@
+{
+  "area": [
+    [
+      0,
+      -228
+    ],
+    [
+      0,
+      -68
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 7,
+  "backSwingTime": 0,
+  "castAction": "",
+  "castActionTime": -1,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 40,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_跑_act.png",
+  "icon_pushed": "@asset/Texture/Skill/common/icon_跑_nor.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "type": "Base",
+  "verticalAlignment": 2
+}

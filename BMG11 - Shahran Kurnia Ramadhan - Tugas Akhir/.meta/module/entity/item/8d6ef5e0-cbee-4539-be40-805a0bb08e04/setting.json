@@ -1,0 +1,40 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Car Experience Store/Car Experience Store.actor"
+    },
+    "boundingVolume": {
+      "position": {
+        "z": -1
+      },
+      "size": {
+        "x": 13.6,
+        "y": 9.8,
+        "z": 13.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "position": {
+        "z": -1
+      },
+      "size": {
+        "x": 13.6,
+        "y": 9.8,
+        "z": 13.6
+      }
+    },
+    "collision": true,
+    "hideName": true,
+    "name": {
+      "value": "entity_8d6ef5e0-cbee-4539-be40-805a0bb08e04"
+    },
+    "unAssailable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "15a392575873a6d2907ee0a775dd2a78",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

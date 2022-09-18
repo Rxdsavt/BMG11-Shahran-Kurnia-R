@@ -1,0 +1,48 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "fall": true,
+    "name": {
+      "value": "block_gold_ore"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/gold_ore.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/gold_ore.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/gold_ore.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/gold_ore.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/gold_ore.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/gold_ore.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "23dc0f8be3a75b21389d43cbcadc8c7b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

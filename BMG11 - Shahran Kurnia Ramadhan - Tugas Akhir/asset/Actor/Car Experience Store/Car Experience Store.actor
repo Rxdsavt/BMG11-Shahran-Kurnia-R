@@ -1,0 +1,74 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2020_house_car.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_house_car.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" UseOriginalcolor="true" LocalAlpha="1" LocalBrightnessScale="1" UseBloom="false" SpecularStrength="1" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/g2020_house_car_1.skin" ChangeColor="2.21368e-10 1.72571e+25 7.20707e+22 4.86174e+30"/>
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" UseOriginalcolor="true" LocalAlpha="1" LocalBrightnessScale="1" UseBloom="true" SpecularStrength="1" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/g2020_house_car_2.skin" ChangeColor="1.89422e+23 1.94329e-19 2.07045e-19 1.89896e+28"/>
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" UseOriginalcolor="true" LocalAlpha="1" LocalBrightnessScale="1" UseBloom="true" SpecularStrength="1" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/g2020_house_car_en.skin" ChangeColor="2.21368e-10 1.72571e+25 7.30957e+28 7.03745e+28"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2020_house_car_idle.anim"/>
+			<Anim Name="asset/Anim/g2020_house_car_idle2.anim"/>
+			<Anim Name="asset/Anim/g2020_house_car_run.anim"/>
+			<Anim Name="asset/Anim/g2020_house_car_run2.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="closeDoor" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_car_idle.anim" Channel="" TimeScale="1" Length="1.033" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_car_idle.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+				<ActorScaleChange beginScale="1.3" endScale="1.3"/>
+			</Skill>
+			<Skill Name="openDoor" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="2.33303"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Building/g2020_door_light2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.5"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.38999"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="-0.464505"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="2.33303"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Building/g2020_door_light2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.5"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.38999"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0.247682"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<ActorScaleChange beginScale="1.3" endScale="1.3"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_car_idle2.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_car_run.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+			</Skill>
+			<Skill Name="run2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_car_run2.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

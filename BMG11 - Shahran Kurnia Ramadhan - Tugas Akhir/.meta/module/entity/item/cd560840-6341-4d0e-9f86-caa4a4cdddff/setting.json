@@ -1,0 +1,33 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Teak-Colored Double-Story Small Building/g2038_build_07.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 10.6,
+        "y": 13.8,
+        "z": 10.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 10.6,
+        "y": 13.8,
+        "z": 10.6
+      }
+    },
+    "collision": true,
+    "hideName": true,
+    "name": {
+      "value": "entity_cd560840-6341-4d0e-9f86-caa4a4cdddff"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1193d10402aada563dec891ccb0ed12e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

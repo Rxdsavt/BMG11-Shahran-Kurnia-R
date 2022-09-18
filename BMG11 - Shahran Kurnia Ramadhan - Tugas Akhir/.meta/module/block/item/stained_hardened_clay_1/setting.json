@@ -1,0 +1,47 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_stained_hardened_clay_1"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a08fde5e8b9a77a82e6990263b7e4629",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

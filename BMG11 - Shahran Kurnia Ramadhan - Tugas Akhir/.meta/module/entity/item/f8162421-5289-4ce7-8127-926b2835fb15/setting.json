@@ -1,0 +1,33 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Square Brown Barber Shop/g2035_decorate_house_small.actor"
+    },
+    "boundingVolume": {
+      "size": {
+        "x": 12.6,
+        "y": 8.8,
+        "z": 11.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "x": 12.6,
+        "y": 8.8,
+        "z": 11.6
+      }
+    },
+    "collision": true,
+    "hideName": true,
+    "name": {
+      "value": "entity_f8162421-5289-4ce7-8127-926b2835fb15"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "66c66b749cd93371469adbc2782b784c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

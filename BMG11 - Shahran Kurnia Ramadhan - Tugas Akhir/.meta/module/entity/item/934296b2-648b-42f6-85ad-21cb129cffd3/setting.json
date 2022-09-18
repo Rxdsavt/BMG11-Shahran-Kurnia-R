@@ -1,0 +1,21 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Pile Of Firewood/Bonfire Wood Pile.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_934296b2-648b-42f6-85ad-21cb129cffd3"
+    },
+    "skill": [
+      ""
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "12f50c26d77ffc467cd424c5d2b4351f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

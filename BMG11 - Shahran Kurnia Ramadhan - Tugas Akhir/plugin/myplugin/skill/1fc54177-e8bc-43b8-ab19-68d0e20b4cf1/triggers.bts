@@ -1,0 +1,3 @@
+SKILL_CAST {
+	AddEntityBuff(buffTime = 20, cfg = "myplugin/f561d545-eedb-4b12-bd2c-aaa4de532b9e", entity = $obj1)
+}

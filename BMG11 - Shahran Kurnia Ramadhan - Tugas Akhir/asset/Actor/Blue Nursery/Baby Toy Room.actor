@@ -1,0 +1,74 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2020_house_baby.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_house_baby.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" UseOriginalcolor="true" LocalAlpha="1" LocalBrightnessScale="1" UseBloom="false" SpecularStrength="1" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/g2020_house_baby_1.skin" ChangeColor="2.21368e-10 1.72571e+25 2.55307e+26 2.21399e-10"/>
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" UseOriginalcolor="true" LocalAlpha="1" LocalBrightnessScale="1" UseBloom="true" SpecularStrength="1" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/g2020_house_baby_2.skin" ChangeColor="5.40676e+22 1.54326e-19 2.59287e-09 5.46683e+22"/>
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" UseOriginalcolor="true" LocalAlpha="1" LocalBrightnessScale="1" UseBloom="true" SpecularStrength="1" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/g2020_house_baby_en.skin" ChangeColor="2.21368e-10 1.15784e+27 7.20708e+22 2.01115e+20"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2020_house_baby_idle.anim"/>
+			<Anim Name="asset/Anim/g2020_house_baby_idle2.anim"/>
+			<Anim Name="asset/Anim/g2020_house_baby_run.anim"/>
+			<Anim Name="asset/Anim/g2020_house_baby_run2.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="closeDoor" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_baby_idle.anim" Channel="" TimeScale="1" Length="1.033" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_baby_idle.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+				<ActorScaleChange beginScale="1.2" endScale="1.2"/>
+			</Skill>
+			<Skill Name="openDoor" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="3.3009"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Building/g2020_door_light2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.85"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.29569"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="-0.324697"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="3.3009"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Building/g2020_door_light2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.85"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.29569"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="-1.34602"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<ActorScaleChange beginScale="1.2" endScale="1.2"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_baby_idle2.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_baby_run.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+			</Skill>
+			<Skill Name="run2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_house_baby_run2.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

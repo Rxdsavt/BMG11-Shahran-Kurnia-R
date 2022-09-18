@@ -1,0 +1,47 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_farmland_dry"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/farmland_dry.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/farmland_dry.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/farmland_dry.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/farmland_dry.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/farmland_dry.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/farmland_dry.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "21e7f2373b3912ccf57226132221a7d5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

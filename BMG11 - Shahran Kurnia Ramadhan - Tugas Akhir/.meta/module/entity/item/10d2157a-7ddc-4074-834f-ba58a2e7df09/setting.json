@@ -1,0 +1,39 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Red Square Convenience Store/g2035_gas_shop.actor"
+    },
+    "boundingVolume": {
+      "position": {
+        "z": -0.5
+      },
+      "size": {
+        "x": 13.6,
+        "y": 7.8,
+        "z": 20.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "position": {
+        "z": -0.5
+      },
+      "size": {
+        "x": 13.6,
+        "y": 7.8,
+        "z": 20.6
+      }
+    },
+    "collision": true,
+    "hideName": true,
+    "name": {
+      "value": "entity_10d2157a-7ddc-4074-834f-ba58a2e7df09"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2d0b8b7637cf0a73f23a52b57d8e94a1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

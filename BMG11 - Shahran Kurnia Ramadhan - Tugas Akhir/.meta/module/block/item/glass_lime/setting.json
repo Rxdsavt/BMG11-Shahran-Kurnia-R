@@ -1,0 +1,48 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_glass_lime"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/glass_lime.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/glass_lime.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/glass_lime.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/glass_lime.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/glass_lime.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/glass_lime.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1095a1b43be2b9ee582e4400832317ac",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}
