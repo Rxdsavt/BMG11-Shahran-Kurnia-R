@@ -1,0 +1,142 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetHeadText",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "66131a32-158c-4a15-b175-9aa62e07dcbe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "53206ffb-a06e-4c19-b66e-16e8e2c5e88a"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e1c7da1b-da81-4a93-a053-cd83d550acbf"
+              },
+              "pos": {
+                "x": 813,
+                "y": 99
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "66131a32-158c-4a15-b175-9aa62e07dcbe"
+              },
+              "pos": {
+                "x": 1259,
+                "y": 71
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3185663b-6f76-4093-bb4c-c1cff1531090"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "05d7d5f3-b6ec-42a0-9c17-9d6c850c8394"
+              },
+              "pos": {
+                "x": 804,
+                "y": 389
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3185663b-6f76-4093-bb4c-c1cff1531090"
+              },
+              "pos": {
+                "x": 1247,
+                "y": 403
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "3abb7cf2-8e7f-4f1d-a50a-0f7d9343e528"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e1c7da1b-da81-4a93-a053-cd83d550acbf"
+                  },
+                  {
+                    "action": "05d7d5f3-b6ec-42a0-9c17-9d6c850c8394"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "40abd351-9a40-4dde-9521-e1daa7908315"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "1e1574c8200fc6a54a8bb40b9d3df9aa"
+    },
+    "VERSION": "0.24"
+  }
+}

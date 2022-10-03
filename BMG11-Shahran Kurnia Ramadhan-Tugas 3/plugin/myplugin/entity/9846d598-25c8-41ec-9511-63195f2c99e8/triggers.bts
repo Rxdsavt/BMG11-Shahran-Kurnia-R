@@ -1,3 +1,0 @@
-ENTITY_TOUCH_ALL {
-	ShowTip(entity = $obj2, keepTime = 100, textKey = "065b0e2c-6ad3-49b4-9731-c0f4e5ddae03", tipType = "1")
-}

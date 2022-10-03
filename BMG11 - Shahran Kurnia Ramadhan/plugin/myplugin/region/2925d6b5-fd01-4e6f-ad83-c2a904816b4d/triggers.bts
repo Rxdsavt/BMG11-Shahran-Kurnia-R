@@ -1,0 +1,4 @@
+REGION_ENTER {
+	SetHeadText(entity = $obj1, headText = "53206ffb-a06e-4c19-b66e-16e8e2c5e88a", x = 0, y = 0)
+	GameOverToPlayer(entity = $obj1)
+}

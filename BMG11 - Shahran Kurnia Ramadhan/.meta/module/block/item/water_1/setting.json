@@ -1,0 +1,53 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "canBreak": false,
+    "canSwim": true,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "maxFallSpeed": 10,
+    "maxSpeed": 4000,
+    "name": {
+      "value": "block_water_1"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/water_flow.png"
+      },
+      "down": {
+        "asset": "plugin/myplugin/water_flow.png"
+      },
+      "front": {
+        "asset": "plugin/myplugin/water_flow.png"
+      },
+      "left": {
+        "asset": "plugin/myplugin/water_flow.png"
+      },
+      "right": {
+        "asset": "plugin/myplugin/water_flow.png"
+      },
+      "up": {
+        "asset": "plugin/myplugin/water_flow.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8f7f55dd38f21f0c16c56951803627e9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

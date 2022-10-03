@@ -1,3 +1,0 @@
-ENTITY_TOUCH_ALL {
-	KillEntity(entity = $obj2)
-}
